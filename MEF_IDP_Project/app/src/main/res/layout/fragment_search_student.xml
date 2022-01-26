@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.VoicerFragments.SearchStudentFragment">
+
+    <TextView
+        android:id="@+id/fragment_search_student_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Tüm Öğrenciler"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_search_student_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_search_student_title"/>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9BA5DA"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewAlertMessage"
+        android:layout_gravity="center"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="Do You Want To Delete ?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAlertDeleteYes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Yes"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnAlertDeleteNo"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAlertUpdate"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFD180"
+        android:text="Update"/>
+
+
+
+</LinearLayout>

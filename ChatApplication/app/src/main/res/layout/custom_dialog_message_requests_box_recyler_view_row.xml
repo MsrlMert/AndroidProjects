@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/custom_dialog_message_request_box_recycler_view_row_user_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"/>
+
+
+    <TextView
+        android:id="@+id/custom_dialog_message_request_box_recycler_view_row_user_name"
+        android:layout_toRightOf="@id/custom_dialog_message_request_box_recycler_view_row_user_img"
+        android:layout_width="80dp"
+        android:layout_height="60dp"/>
+
+
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/custom_dialog_message_request_box_recycler_view_row_accept"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Yes"/>
+
+        <Button
+            android:id="@+id/custom_dialog_message_request_box_recycler_view_row_dismiss"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="No"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

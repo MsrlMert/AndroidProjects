@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/content_main_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/content_main_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:id="@+id/content_main_relative_layout_notify"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/custom_dialog_message_request_box_notify_img_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_notifications_24" />
+
+                <TextView
+                    android:id="@+id/custom_dialog_message_request_box_notify_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/custom_dialog_message_request_box_notify_img_view"
+                    android:layout_toEndOf="@id/custom_dialog_message_request_box_notify_img_view"
+                    android:textColor="#D68C08"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/content_main_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/content_main_app_bar_layout"
+        android:layout_above="@id/content_main_bottom_nav_view"/>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/content_main_bottom_nav_view"
+        app:menu="@menu/menu_bottom_nav_view"
+        android:background="#CAA15B"
+        app:itemIconTint="@color/color_bottom_nav_view"
+        app:itemTextColor="@color/color_bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

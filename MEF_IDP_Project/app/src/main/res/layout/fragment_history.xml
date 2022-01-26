@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.VoicerFragments.HistoryFragment">
+
+    <TextView
+        android:id="@+id/fragment_history_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Geçmiş Kayıtlar"/>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_history_recycler_view_past_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_history_text_title"/>
+
+    <include
+        layout="@layout/player_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

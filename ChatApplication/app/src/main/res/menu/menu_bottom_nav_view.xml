@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/bottom_nav_view_users"
+        android:icon="@drawable/ic_baseline_users_24"
+        android:title="Users" />
+
+    <item
+        android:id="@+id/bottom_nav_view_messages"
+        android:icon="@drawable/ic_baseline_messages_24"
+        android:title="Messages" />
+
+    <item
+        android:id="@+id/bottom_nav_view_profile"
+        android:icon="@drawable/ic_baseline_profile_24"
+        android:title="Users" />
+
+
+</menu>

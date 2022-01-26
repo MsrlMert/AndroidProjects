@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FoodListFragment">
+
+
+    <EditText
+        android:id="@+id/fragment_food_edit_text"
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@id/fragment_food_btn_submit"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Text"/>
+
+    <Button
+        android:id="@+id/fragment_food_btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentEnd="true"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_food_swipe_refresh"
+        android:layout_below="@id/fragment_food_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_food_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+</RelativeLayout>

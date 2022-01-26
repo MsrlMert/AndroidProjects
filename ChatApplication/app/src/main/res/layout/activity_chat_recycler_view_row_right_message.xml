@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/activity_chat_recycler_view_row_message_text_view"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:maxHeight="350dp"
+        android:minHeight="70dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/activity_chat_txt_message_sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/activity_chat_recycler_view_row_message_text_view"
+        android:layout_alignBottom="@id/activity_chat_recycler_view_row_message_text_view"
+        android:src="@drawable/ic_baseline_sent_message_24"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/activity_chat_txt_message_forwarded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/activity_chat_recycler_view_row_message_text_view"
+        android:layout_alignBottom="@id/activity_chat_recycler_view_row_message_text_view"
+        android:src="@drawable/ic_baseline_forwarded_all_24"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/activity_chat_txt_message_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/activity_chat_recycler_view_row_message_text_view"
+        android:layout_alignBottom="@id/activity_chat_recycler_view_row_message_text_view"
+        android:src="@drawable/ic_baseline_read_24"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/activity_chat_recycler_view_row_message_img_view"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"/>
+
+    <ImageView
+        android:id="@+id/activity_chat_img_message_sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/activity_chat_recycler_view_row_message_img_view"
+        android:layout_alignBottom="@id/activity_chat_recycler_view_row_message_img_view"
+        android:src="@drawable/ic_baseline_sent_message_24"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/activity_chat_img_message_forwarded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/activity_chat_recycler_view_row_message_img_view"
+        android:layout_alignBottom="@id/activity_chat_recycler_view_row_message_img_view"
+        android:src="@drawable/ic_baseline_forwarded_all_24"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/activity_chat_img_message_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/activity_chat_recycler_view_row_message_img_view"
+        android:layout_alignBottom="@id/activity_chat_recycler_view_row_message_img_view"
+        android:src="@drawable/ic_baseline_read_24"
+        android:visibility="gone" />
+
+
+    <ProgressBar
+        android:id="@+id/activity_chat_progress_bar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignRight="@id/activity_chat_recycler_view_row_message_img_view"
+        android:layout_alignLeft="@id/activity_chat_recycler_view_row_message_img_view"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

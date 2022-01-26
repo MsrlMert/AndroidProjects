@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="80dp"
+    tools:context=".Activities.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/login_activity_edit_text_user_email"
+        android:inputType="textEmailAddress"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Your Email" />
+
+    <EditText
+        android:id="@+id/login_activity_edit_text_user_password"
+        android:inputType="textPassword"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/login_activity_edit_text_user_email"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Your Password" />
+
+    <Button
+        android:id="@+id/login_activity_btn_login"
+        android:onClick="login_activity_btn_loginOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_activity_edit_text_user_password"
+        android:layout_centerHorizontal="true"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/login_activity_btn_register"
+        android:onClick="login_activity_btn_registerOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="don't have an account?" />
+
+
+</RelativeLayout>

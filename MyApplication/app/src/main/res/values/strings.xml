@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Merts App</string>
+    <string name="bilmece_sorusu">Bilmecenin Sorusu</string>
+    <string name="bilmece_cevabı">Bilmecenin Cevabı sizlerle</string>
+    <string name="sleep">sleeping</string>
+    <string name="fight">fighting</string>
+    <string name="eat">Eating</string>
+</resources>

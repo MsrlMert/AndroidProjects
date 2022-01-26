@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557323599377",
+    "project_id": "gps-application-b040c",
+    "storage_bucket": "gps-application-b040c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557323599377:android:78d17f285041f84b43fbb0",
+        "android_client_info": {
+          "package_name": "com.mertmsrl.gpsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557323599377-2j48ds2mif01kp6msigh1efieplelh9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-P0F_xmsFnvXksehvGdG8n0a0s5o9ooE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557323599377-2j48ds2mif01kp6msigh1efieplelh9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

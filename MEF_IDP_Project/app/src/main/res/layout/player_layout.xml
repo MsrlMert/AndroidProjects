@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="?attr/bottomSheetStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/media_bg"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+    <LinearLayout
+        android:id="@+id/player_layout_inner_relative"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/media_header_bg">
+
+
+        <TextView
+            android:id="@+id/player_layout_text_media_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="Media Player"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/player_layout_text_media_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:text="yeniden"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/player_layout_text_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player_layout_inner_relative"
+        android:layout_centerHorizontal="true"
+        android:text="file name"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:id="@+id/player_layout_buttons_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player_layout_text_file_name">
+
+        <ImageView
+            android:id="@+id/player_layout_img_view_replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/player_layout_img_view_play"
+            android:src="@drawable/ic_baseline_replay_10_56" />
+
+        <ImageView
+            android:id="@+id/player_layout_img_view_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_baseline_play_arrow_56" />
+
+        <ImageView
+            android:id="@+id/player_layout_img_view_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/player_layout_img_view_play"
+            android:src="@drawable/ic_baseline_forward_10_56" />
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/player_layout_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player_layout_buttons_relative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="35dp" />
+
+
+</LinearLayout>

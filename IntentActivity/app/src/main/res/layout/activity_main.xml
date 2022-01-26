@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSendNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Notification"/>
+
+
+    <Button
+        android:id="@+id/btnGoToActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Activity 2"/>
+
+    <Button
+        android:id="@+id/btnGoToActivity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Activity 3"/>
+
+    <Button
+        android:id="@+id/btnGoToActivity4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Activity 4"/>
+
+    <Button
+        android:id="@+id/btnGoToActivity5"
+        android:text="Go To Activity 5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnGetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Alert"/>
+
+
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Time is shown Here"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Large"/>
+
+<!--    <TimePicker-->
+<!--        android:id="@+id/timePicker"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:headerBackground="#B39626"-->
+<!--        android:headerAmPmTextAppearance="@color/design_default_color_error"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <Spinner
+        android:id="@+id/spinnerCities"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spinnerTowns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnGoToSharedPreferences"
+        android:text="Go To Shared Preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

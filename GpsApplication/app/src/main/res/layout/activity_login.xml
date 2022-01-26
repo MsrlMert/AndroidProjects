@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="50dp"
+    tools:context=".Activities.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/activity_login_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Kayıt Ol"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/activity_login_text_view_email"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_login_title"
+        android:gravity="center"
+        android:text="Email: "
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/activity_login_edit_text_email"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_login_title"
+        android:layout_toRightOf="@id/activity_login_text_view_email"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/activity_login_text_view_password"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_login_text_view_email"
+        android:gravity="center"
+        android:text="Password: "
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/activity_login_edit_text_password"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_login_text_view_email"
+        android:layout_toRightOf="@id/activity_login_text_view_password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_login_btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_login_text_view_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Giris Yap" />
+
+    <Button
+        android:id="@+id/activity_login_btn_goto_register_activity"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Kayıt Ol" />
+
+</RelativeLayout>

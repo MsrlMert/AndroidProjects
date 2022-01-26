@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/messages_fragment_recycler_view_row_main_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/messages_fragment_recycler_view_row_user_img"
+        android:layout_width="90dp"
+        android:layout_height="70dp" />
+
+    <RelativeLayout
+        android:id="@+id/messages_fragment_recycler_view_row_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@id/messages_fragment_recycler_view_row_user_img">
+
+        <TextView
+            android:id="@+id/messages_fragment_recycler_view_row_relative_layout_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/messages_fragment_recycler_view_row_relative_layout_new_message_count"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/messages_fragment_recycler_view_row_relative_layout_last_message"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/messages_fragment_recycler_view_row_relative_layout_user_name" />
+
+        <TextView
+            android:id="@+id/messages_fragment_recycler_view_row_relative_layout_last_message_date"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/messages_fragment_recycler_view_row_relative_layout_user_name"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

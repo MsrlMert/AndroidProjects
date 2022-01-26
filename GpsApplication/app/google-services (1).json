@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "843015919115",
+    "project_id": "chatapp-f1e41",
+    "storage_bucket": "chatapp-f1e41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843015919115:android:c202e598bab3809368d90e",
+        "android_client_info": {
+          "package_name": "com.mertmsrl.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843015919115-d6kvf6lrtosjjmng213v2m5o0rs07rdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByGrLQbMOYnUYriEj1IWveiQhcfL7LCfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843015919115-d6kvf6lrtosjjmng213v2m5o0rs07rdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

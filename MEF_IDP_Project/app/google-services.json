@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "999455672949",
+    "project_id": "idpkitapproje",
+    "storage_bucket": "idpkitapproje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999455672949:android:60f17fe643ffb9b1aa863c",
+        "android_client_info": {
+          "package_name": "com.mertmsrl.mef_idp_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999455672949-n27f52gidmk38na0j93se6iit92eullv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwD8XMwXbl2ldOZM0SdKvPdj3-66wTjdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999455672949-n27f52gidmk38na0j93se6iit92eullv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

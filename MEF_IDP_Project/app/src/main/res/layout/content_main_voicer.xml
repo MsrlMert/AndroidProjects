@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/content_main_voicer_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/content_main_voicer_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            app:menu="@menu/voicer_content_main_bottom_nav_menu"
+            android:id="@+id/content_main_voicer_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/content_main_bottom_nav_back_color">
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@id/content_main_voicer_app_bar_layout"
+        android:id="@+id/content_main_voicer_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/content_main_voicer_app_bar_layout"
+            android:id="@+id/content_main_voicer_frame_layout"/>
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:id="@+id/content_main_voicer_bottom_nav_menu"-->
+<!--        app:menu="@menu/voicer_content_main_bottom_nav_menu"-->
+<!--        app:itemTextColor="@color/activity_main_voicer_bottom_nav_view"-->
+<!--        app:itemIconTint="@color/activity_main_voicer_bottom_nav_view"-->
+<!--        android:layout_alignParentBottom="true"/>-->
+
+</RelativeLayout>

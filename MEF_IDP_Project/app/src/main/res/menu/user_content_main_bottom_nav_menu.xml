@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/content_main_bottom_nav_menu_home"
+            android:title="Anasayfa"
+            android:icon="@drawable/ic_baseline_home_24"/>
+
+        <item android:id="@+id/content_main_bottom_nav_menu_saved"
+            android:title="Kayıt Edilenler"
+            android:icon="@drawable/ic_baseline_save_24"/>
+
+        <item android:id="@+id/content_main_bottom_nav_menu_profile"
+            android:title="Profil"
+            android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+    </group>
+
+</menu>

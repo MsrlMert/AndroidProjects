@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment_history_recycler_view_row_relative_layout"
+    android:background="@drawable/fragment_history_recycler_view_past_records_row_bg">
+
+
+    <TextView
+        android:id="@+id/fragment_history_recycler_view_past_records_row_text_user_email"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fragment_history_recycler_view_past_records_row_text_user_id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_history_recycler_view_past_records_row_text_user_email"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:gravity="start"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/fragment_history_recycler_view_past_records_row_img_view_lesson"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_below="@id/fragment_history_recycler_view_past_records_row_text_user_id"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>

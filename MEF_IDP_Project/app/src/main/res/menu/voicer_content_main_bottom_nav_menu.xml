@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/voicer_content_main_bottom_nav_menu_matched_students"
+        android:title="Eşleşilmiş Öğrenciler"
+        android:icon="@drawable/ic_baseline_people_24"/>
+    <item android:id="@+id/voicer_content_main_bottom_nav_menu_all_students"
+        android:title="Öğrenci Ara"
+        android:icon="@drawable/ic_baseline_person_search_24"/>
+    <item android:id="@+id/voicer_content_main_bottom_nav_menu_history"
+        android:title="Kayıtlar"
+        android:icon="@drawable/ic_baseline_history_24"/>
+
+</menu>

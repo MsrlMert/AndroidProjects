@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/main_activity_edit_text_book_name"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:hint="Enter Book Name" />
+
+    <EditText
+        android:id="@+id/main_activity_edit_text_book_author"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/main_activity_edit_text_book_name"
+        android:hint="Enter Book Name" />
+
+    <Button
+        android:id="@+id/activity_main_btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:onClick="btnAddListener"
+        android:text="add" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_below="@id/main_activity_edit_text_book_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/main_activity_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_activity_edit_text_book_name" />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

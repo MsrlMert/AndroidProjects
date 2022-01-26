@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.RegisterActivity">
+
+    <TextView
+        android:id="@+id/activity_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Kayıt Ol"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/activity_register_text_view_email"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_register_title"
+        android:gravity="center"
+        android:text="Email: "
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/activity_register_edit_text_email"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_register_title"
+        android:layout_toRightOf="@id/activity_register_text_view_email"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/activity_register_text_view_password"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_register_text_view_email"
+        android:gravity="center"
+        android:text="Password: "
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/activity_register_edit_text_password"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/activity_register_text_view_email"
+        android:layout_toRightOf="@id/activity_register_text_view_password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_register_btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_register_text_view_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Kayıt Ol" />
+
+</RelativeLayout>

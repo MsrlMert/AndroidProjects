@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/student_search_recycler_view_row_relative_layout">
+
+    <TextView
+        android:id="@+id/student_search_recycler_view_row_user_name"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="User Name"/>
+
+    <TextView
+        android:id="@+id/student_search_recycler_view_row_user_email"
+        android:layout_toRightOf="@id/student_search_recycler_view_row_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center|left"
+        android:hint="User Email"/>
+
+
+</RelativeLayout>
